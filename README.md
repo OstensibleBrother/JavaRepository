@@ -16,3 +16,18 @@
 * Email:877258184@qq.com
 * Github:https://github.com/yangzixuanzi
 ## 运行效果
+![image](https://github.com/OstensibleBrother/JavaRepository/blob/master/1.jpg)
+#
+![image](https://github.com/OstensibleBrother/JavaRepository/blob/master/2.jpg)
+#
+![image](https://github.com/OstensibleBrother/JavaRepository/blob/master/3.jpg)
+#
+![image](https://github.com/OstensibleBrother/JavaRepository/blob/master/4.png)
+#
+![image](https://github.com/OstensibleBrother/JavaRepository/blob/master/5.jpg)
+#
+![image](https://github.com/OstensibleBrother/JavaRepository/blob/master/6.png)
+#
+![image](https://github.com/OstensibleBrother/JavaRepository/blob/master/7.jpg)
+#
+![image](https://github.com/OstensibleBrother/JavaRepository/blob/master/8.jpg)
