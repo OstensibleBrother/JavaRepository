@@ -1,0 +1,21 @@
+.wenzhang{
+	width: 800px;
+	margin-top: 50px;
+	margin-left: 270px;
+}
+.wenzhang p{
+	text-align:left;
+	text-indent:2em;
+	line-height: 30px;
+	font-size: 15px;
+}
+.wenzhang img{
+	width: 400px;
+	margin-left: 200px;
+}
+.wenzhang h1{
+	text-align:center;
+}
+.wenzhang h2{
+	text-align:center;
+}

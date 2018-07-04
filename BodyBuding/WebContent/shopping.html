@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>商品信息</title>
+	<link rel="stylesheet" type="text/css" href="css/shopping.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+<body>
+	
+	<!--导航栏-->
+
+	<div class="head">
+		<div id="logo">
+			<img src="img/logo1.jpg">
+		</div>
+		<div class="dropdown">
+			<a href="index.html"><button class="dropbtn">首页</button></a>
+		</div>
+		<div class="dropdown">
+			<a href="xunlian.html"><button class="dropbtn">训练</button></a>
+            <div class="dropdown-content">	
+			    <div class="a">
+            		<p>所有计划</p>
+            		<div></div>
+				    <a href="#">查看所有培训文章</a>
+				    <a href="#">查看所有训练计划</a>
+				    <a href="#">训练数据库</a>
+				    <a href="#">目前的挑战</a>
+			    </div>
+			    <div class="a">
+            		<p>训练目标</p>
+            		<div></div>
+				    <a href="#">增肌</a>
+				    <a href="#">减脂</a>
+				    <a href="#">健康</a>
+				    <a href="#">功能性训练</a>
+				    <a href="#">其它</a>
+			    </div>
+			    <div class="a">
+            		<p>训练肌群</p>
+            		<div></div>
+				    <a href="#">胸部</a>
+				    <a href="#">背部</a>
+				    <a href="#">腿部</a>
+				    <a href="#">肩部</a>
+				    <a href="#">腰腹肌</a>
+				    <a href="#">肱二/肱三</a>
+			    </div>
+            </div>
+		</div>
+		<div class="dropdown">
+			<a href="shop.html"><button class="dropbtn">商店</button></a>
+            <div class="dropdown-content">
+            	<div class="a">
+            		<p>器械</p>
+            		<div></div>
+				    <a href="#">杠铃/哑铃</a>
+				    <a href="#">复合器械</a>
+				    <a href="#">跑步机</a>
+				    <a href="#">护具</a>
+				    <a href="#">其它</a>
+			    </div>
+			    <div class="a">
+            		<p>补剂</p>
+            		<div></div>
+				    <a href="#">蛋白粉</a>
+				    <a href="#">氨基酸</a>
+				    <a href="#">氮泵</a>
+				    <a href="#">维生素</a>
+				    <a href="#">其它</a>
+			    </div>
+			    <div class="a">
+            		<p>课程</p>
+            		<div></div>
+				    <a href="#">私教课</a>
+				    <a href="#">训练班</a>
+				    <a href="#">其它</a>
+			    </div>
+            </div>
+		</div>
+		<div id="cart">
+			<a href="shopcart.html"><img src="img/cart.png"></a>
+		</div>
+		<div id="user">
+			<a href="user.html"><img src="img/user.png"></a>
+		</div>
+	</div>
+
+	<!--商品图片展示及放大镜-->
+	
+	<div class="box">
+		<div class="tb-booth tb-pic tb-s310">
+			<a href="images/01.jpg"><img src="images/01.jpg" alt="蛋白粉" rel="images/01_mid.jpg" class="jqzoom" /></a>
+		</div>
+		<ul class="tb-thumb" id="thumblist">
+			<li class="tb-selected"><div class="tb-pic tb-s40"><a href="#"><img src="images/01_small.jpg" mid="images/01_mid.jpg" big="images/01.jpg"></a></div></li>
+			<li><div class="tb-pic tb-s40"><a href="#"><img  src="images/02_small.jpg" mid="images/02_mid.jpg" big="images/02.jpg"></a></div></li>
+			<li><div class="tb-pic tb-s40"><a href="#"><img src="images/03_small.jpg" mid="images/03_mid.jpg" big="images/03.jpg"></a></div></li>
+			<li><div class="tb-pic tb-s40"><a href="#"><img src="images/04_small.jpg" mid="images/04_mid.jpg" big="images/04.jpg"></a></div></li>
+			<li><div class="tb-pic tb-s40"><a href="#"><img src="images/05_small.jpg" mid="images/05_mid.jpg" big="images/05.jpg"></a></div></li>
+		</ul>
+	</div>
+
+	<!--商品图片展示及放大镜右侧-->
+
+	<div class="box-right">
+		<div class="title"><p>Muscletech肌肉科技白金乳清蛋白粉 蛋白质粉健身增肌粉健肌粉5磅</p></div>
+		<div class="money">
+			<div class="price">价格</div><p class="sym">&yen;</p><div class="num">230</div>
+		</div>
+		<div class="sale-assess">
+			<div class="sale">
+				<div class="label">销量</div>
+				<div class="count">2089</div>
+			</div>
+			<div class="assess">
+				<div class="label">累计评论</div>
+				<div class="count">1582</div>
+			</div>
+		</div>
+		<div class="sku">
+			<div class="number">
+				<span class="number-w">数量</span>
+				<span class="amount">
+					<input type="text" name="" value="1" title="请输入购买量" class="amount-num">
+					<span class="amount-btn">
+						<span class="amount-increase"></span>
+						<span class="amount-decrease"></span>
+					</span>
+					<div class="amount-unit">件</div>
+				</span>
+				<span class="stock">库存1395件</span>
+			</div>
+			<div class="buy-cart">
+				<div class="into-buy">
+					<a href="shopcart.html"><button>立即购买</button></a>
+				</div>
+				<div class="into-cart">
+					<button>加入购物车</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--我是分割线-->
+
+	<div class="fenge"></div>
+
+	<!---->
+	<div class="tabs">
+		<div onclick="ChangeDiv('0','JKDiv_',1,'a')" class="tabs-nav" id="a0">
+			商品信息
+		</div>
+		<div onclick="ChangeDiv('1','JKDiv_',1,'a')" class="tabs-panel" id="a1">
+			累计评论
+		</div> 
+		<div class="tabs-fen">
+			<div id="JKDiv_0" class="tab1">
+				<img src="img/logo1.jpg">
+				<img src="img/logo1.jpg">
+				<img src="img/logo1.jpg">
+				<img src="img/logo1.jpg">
+				<img src="img/logo1.jpg">
+			</div>
+			<div id="JKDiv_1" class="tab2">
+				<table>
+					<tr>
+						<td class="tm-col-master">
+							<div class="tm-tate-content">
+								<div class="tm-tate-fulltxt">
+									"去年8月份健身、接触康比特、很好、很喜欢！从一个小肚腩胖大叔练有型了、喜欢现在这样！对于现在这样很满意了、保持就行了！健身器材很简单、就是俯卧撑和哑铃、瑜伽垫！坚持吧、喜欢香草味！支持康比特这产品！"
+								</div>
+								<div class="tm-m-photos">
+									<ul class="tm-m-photos-thumb">
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+									</ul>
+								</div>
+								<div class="tm-tate-date">
+									2018-6-12
+								</div>
+							</div>
+						</td>
+						<td class="col-author">
+							<div class="rate-user-info">
+								"小"
+								<span>***</span>
+								"y"
+								<span>(匿名)</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="tm-col-master">
+							<div class="tm-tate-content">
+								<div class="tm-tate-fulltxt">
+									"去年8月份健身、接触康比特、很好、很喜欢！从一个小肚腩胖大叔练有型了、喜欢现在这样！对于现在这样很满意了、保持就行了！健身器材很简单、就是俯卧撑和哑铃、瑜伽垫！坚持吧、喜欢香草味！支持康比特这产品！"
+								</div>
+								<div class="tm-m-photos">
+									<ul class="tm-m-photos-thumb">
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+									</ul>
+								</div>
+								<div class="tm-tate-date">
+									2018-6-12
+								</div>
+							</div>
+						</td>
+						<td class="col-author">
+							<div class="rate-user-info">
+								"小"
+								<span>***</span>
+								"y"
+								<span>(匿名)</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="tm-col-master">
+							<div class="tm-tate-content">
+								<div class="tm-tate-fulltxt">
+									"去年8月份健身、接触康比特、很好、很喜欢！从一个小肚腩胖大叔练有型了、喜欢现在这样！对于现在这样很满意了、保持就行了！健身器材很简单、就是俯卧撑和哑铃、瑜伽垫！坚持吧、喜欢香草味！支持康比特这产品！"
+								</div>
+								<div class="tm-m-photos">
+									<ul class="tm-m-photos-thumb">
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+									</ul>
+								</div>
+								<div class="tm-tate-date">
+									2018-6-12
+								</div>
+							</div>
+						</td>
+						<td class="col-author">
+							<div class="rate-user-info">
+								"小"
+								<span>***</span>
+								"y"
+								<span>(匿名)</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="tm-col-master">
+							<div class="tm-tate-content">
+								<div class="tm-tate-fulltxt">
+									"去年8月份健身、接触康比特、很好、很喜欢！从一个小肚腩胖大叔练有型了、喜欢现在这样！对于现在这样很满意了、保持就行了！健身器材很简单、就是俯卧撑和哑铃、瑜伽垫！坚持吧、喜欢香草味！支持康比特这产品！"
+								</div>
+								<div class="tm-m-photos">
+									<ul class="tm-m-photos-thumb">
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+									</ul>
+								</div>
+								<div class="tm-tate-date">
+									2018-6-12
+								</div>
+							</div>
+						</td>
+						<td class="col-author">
+							<div class="rate-user-info">
+								"小"
+								<span>***</span>
+								"y"
+								<span>(匿名)</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="tm-col-master">
+							<div class="tm-tate-content">
+								<div class="tm-tate-fulltxt">
+									"去年8月份健身、接触康比特、很好、很喜欢！从一个小肚腩胖大叔练有型了、喜欢现在这样！对于现在这样很满意了、保持就行了！健身器材很简单、就是俯卧撑和哑铃、瑜伽垫！坚持吧、喜欢香草味！支持康比特这产品！"
+								</div>
+								<div class="tm-m-photos">
+									<ul class="tm-m-photos-thumb">
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+									</ul>
+								</div>
+								<div class="tm-tate-date">
+									2018-6-12
+								</div>
+							</div>
+						</td>
+						<td class="col-author">
+							<div class="rate-user-info">
+								"小"
+								<span>***</span>
+								"y"
+								<span>(匿名)</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="tm-col-master">
+							<div class="tm-tate-content">
+								<div class="tm-tate-fulltxt">
+									"去年8月份健身、接触康比特、很好、很喜欢！从一个小肚腩胖大叔练有型了、喜欢现在这样！对于现在这样很满意了、保持就行了！健身器材很简单、就是俯卧撑和哑铃、瑜伽垫！坚持吧、喜欢香草味！支持康比特这产品！"
+								</div>
+								<div class="tm-m-photos">
+									<ul class="tm-m-photos-thumb">
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+									</ul>
+								</div>
+								<div class="tm-tate-date">
+									2018-6-12
+								</div>
+							</div>
+						</td>
+						<td class="col-author">
+							<div class="rate-user-info">
+								"小"
+								<span>***</span>
+								"y"
+								<span>(匿名)</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="tm-col-master">
+							<div class="tm-tate-content">
+								<div class="tm-tate-fulltxt">
+									"去年8月份健身、接触康比特、很好、很喜欢！从一个小肚腩胖大叔练有型了、喜欢现在这样！对于现在这样很满意了、保持就行了！健身器材很简单、就是俯卧撑和哑铃、瑜伽垫！坚持吧、喜欢香草味！支持康比特这产品！"
+								</div>
+								<div class="tm-m-photos">
+									<ul class="tm-m-photos-thumb">
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+									</ul>
+								</div>
+								<div class="tm-tate-date">
+									2018-6-12
+								</div>
+							</div>
+						</td>
+						<td class="col-author">
+							<div class="rate-user-info">
+								"小"
+								<span>***</span>
+								"y"
+								<span>(匿名)</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="tm-col-master">
+							<div class="tm-tate-content">
+								<div class="tm-tate-fulltxt">
+									"去年8月份健身、接触康比特、很好、很喜欢！从一个小肚腩胖大叔练有型了、喜欢现在这样！对于现在这样很满意了、保持就行了！健身器材很简单、就是俯卧撑和哑铃、瑜伽垫！坚持吧、喜欢香草味！支持康比特这产品！"
+								</div>
+								<div class="tm-m-photos">
+									<ul class="tm-m-photos-thumb">
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+									</ul>
+								</div>
+								<div class="tm-tate-date">
+									2018-6-12
+								</div>
+							</div>
+						</td>
+						<td class="col-author">
+							<div class="rate-user-info">
+								"小"
+								<span>***</span>
+								"y"
+								<span>(匿名)</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="tm-col-master">
+							<div class="tm-tate-content">
+								<div class="tm-tate-fulltxt">
+									"去年8月份健身、接触康比特、很好、很喜欢！从一个小肚腩胖大叔练有型了、喜欢现在这样！对于现在这样很满意了、保持就行了！健身器材很简单、就是俯卧撑和哑铃、瑜伽垫！坚持吧、喜欢香草味！支持康比特这产品！"
+								</div>
+								<div class="tm-m-photos">
+									<ul class="tm-m-photos-thumb">
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+									</ul>
+								</div>
+								<div class="tm-tate-date">
+									2018-6-12
+								</div>
+							</div>
+						</td>
+						<td class="col-author">
+							<div class="rate-user-info">
+								"小"
+								<span>***</span>
+								"y"
+								<span>(匿名)</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="tm-col-master">
+							<div class="tm-tate-content">
+								<div class="tm-tate-fulltxt">
+									"去年8月份健身、接触康比特、很好、很喜欢！从一个小肚腩胖大叔练有型了、喜欢现在这样！对于现在这样很满意了、保持就行了！健身器材很简单、就是俯卧撑和哑铃、瑜伽垫！坚持吧、喜欢香草味！支持康比特这产品！"
+								</div>
+								<div class="tm-m-photos">
+									<ul class="tm-m-photos-thumb">
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+										<li data-src="">
+											<img src="img/logo1.jpg">
+										</li>
+									</ul>
+								</div>
+								<div class="tm-tate-date">
+									2018-6-12
+								</div>
+							</div>
+						</td>
+						<td class="col-author">
+							<div class="rate-user-info">
+								"小"
+								<span>***</span>
+								"y"
+								<span>(匿名)</span>
+							</div>
+						</td>
+					</tr>
+				</table>
+				<div class="page-wrap">
+					<div class="pager">
+						<ul class="pages">
+							<li class="page-item active">
+								<button class="pagination-btn num-btn">1</button>
+							</li>
+							<li class="page-item">
+								<button class="pagination-btn num-btn">2</button>
+							</li>
+							<li class="page-item">
+								<button class="pagination-btn num-btn">3</button>
+							</li>
+							<li class="page-item">
+								<button class="pagination-btn num-btn">4</button>
+							</li>
+							<li class="page-item">
+								<button class="pagination-btn num-btn">5</button>
+							</li>
+							<li class="page-item">
+								<button class="pagination-btn num-btn">6</button>
+							</li>
+							<strong>...</strong>
+							<li class="page-item last">
+								<button class="pagination-btn">10</button>
+							</li>
+							<li class="page-item next">
+								<button class="nav-btn num-btn">下一页</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--我是分割线-->
+
+	<div class="fenge"></div>
+
+	<!--底部-->
+	
+	<div class="footer">
+		<div class="footer-pic"><a href="#"><img src="img/logo1.jpg"></a></div>
+		<div class="footer-w">
+			<div id="footer-w1">
+				<a href="#">工作机会</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">关于</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">支持</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">媒体中心</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">安全中心</a>
+			</div>
+			<div id="footer-w2">
+				<p>©2018健身联盟有限公司版权所有</p>
+			</div>
+			<div id="footer-w3">
+				<a href="">隐私</a>&nbsp;|&nbsp;<a href="#">法律条款</a>
+			</div>
+			<div id="footer-w4">
+				冀网文[2017]0000-000号&nbsp;|&nbsp;互联网违法和不良信息举报电话：0000-00000000<br>冀公网安备：00000000000000&nbsp;|&nbsp;客服电话：0000-00000000<br>河北省石家庄市南二环东路20号<br><br>在开始任何饮食或运动计划或服用任何膳食补充剂之前，务必咨询合格的医疗保健专业人员。我们网站上的内容仅用于信息和教育目的，并非作为医疗建议或替代与合格医疗保健专业人员的关系
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.imagezoom.min.js"></script>
+    <script type="text/javascript">
+	$(document).ready(function(){
+
+		$(".jqzoom").imagezoom();
+		
+		$("#thumblist li a").click(function(){
+			$(this).parents("li").addClass("tb-selected").siblings().removeClass("tb-selected");
+			$(".jqzoom").attr('src',$(this).find("img").attr("mid"));
+			$(".jqzoom").attr('rel',$(this).find("img").attr("big"));
+		});
+
+	});
+	</script>
+    <script language="JavaScript" type="text/javascript"> 
+	function ChangeDiv(divId,divName,zDivCount,divself)
+	{ 
+
+		for(i=0;i<=zDivCount;i++) 
+		{ 
+		document.getElementById(divself+i).style.color="black"; 
+		} 
+		document.getElementById(divself+divId).style.color="#FF0000";
+
+		for(i=0;i<=zDivCount;i++) 
+		{ 
+		document.getElementById(divName+i).style.display="none"; 
+		} 
+		document.getElementById(divName+divId).style.display="block";  
+	} 
+	</script> 
+</body>
+</html>
